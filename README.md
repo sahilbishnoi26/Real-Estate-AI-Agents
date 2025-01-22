@@ -18,23 +18,31 @@ This project demonstrates the use of multiple AI agents to analyze retail proper
 
 ## Installation
 1. **Clone the Repository**  
-   - `git clone https://github.com/your-username/multi-agent-property-analysis.git`  
-   - `cd multi-agent-property-analysis`
-
+     ```
+     git clone https://github.com/your-username/Real-Estate-AI-Agents.git`  
+     cd multi-agent-property-analysis
+     ```
 2. **Create and Activate a Virtual Environment**  
    - On Windows:  
-     - `python -m venv venv`  
-     - `venv\Scripts\activate`
+     ```
+     python -m venv venv
+     venv\Scripts\activate
+     ```
    - On macOS/Linux:  
-     - `python3 -m venv venv`  
-     - `source venv/bin/activate`
-
+     ```
+     python3 -m venv venv
+     source venv/bin/activate
+     ```
 3. **Install Dependencies**  
-   - `pip install -r requirements.txt`
+     ```
+     pip install -r requirements.txt
+     ```
 
-4. **Set Up Environment Variables**  
+5. **Set Up Environment Variables**  
    - Create a `.env` file in the root directory and add the required API keys. Example:
      ```
+     OPENAI_API_KEY=your_openai_api_key_here
+     GROQ_API_KEY=your_openai_api_key_here
      SERPER_API_KEY=your_api_key_here
      ```
 
@@ -43,14 +51,18 @@ This project demonstrates the use of multiple AI agents to analyze retail proper
    - Modify the agents and tasks in `agents.py` and `tasks.py` to reflect specific requirements.
 
 2. **Run the Project**  
-   - `python main.py`
+   ```
+   python main.py
+   ```
 
-3. **Interact with the Agents**  
+4. **Interact with the Agents**  
    - The agents will execute assigned tasks, and outputs will be saved to:
-     - `research_task_output_internet.txt`
-     - `analysis_task_output.txt`
+     ```
+     research_task_output_internet.txt
+     analysis_task_output.txt
+     ```
 
-4. **View Results**  
+5. **View Results**  
    - Open the generated output files to analyze the findings and recommendations.
 
 ## Troubleshooting
