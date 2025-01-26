@@ -20,7 +20,7 @@ This project demonstrates the use of multiple AI agents to analyze retail proper
 1. **Clone the Repository**  
      ```
      git clone https://github.com/your-username/Real-Estate-AI-Agents.git`  
-     cd multi-agent-property-analysis
+     cd Real-Estate-AI-Agents
      ```
 2. **Create and Activate a Virtual Environment**  
    - On Windows:  
