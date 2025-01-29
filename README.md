@@ -39,11 +39,11 @@ This project demonstrates the use of multiple AI agents to analyze retail proper
      pip install -r requirements.txt
      ```
 
-5. **Set Up Environment Variables**  
+4. **Set Up Environment Variables**  
    - Create a `.env` file in the root directory and add the required API keys. Example:
      ```
      OPENAI_API_KEY=your_openai_api_key_here
-     GROQ_API_KEY=your_openai_api_key_here
+     GROQ_API_KEY=your_groq_api_key_here
      SERPER_API_KEY=your_api_key_here
      ```
 
@@ -57,7 +57,7 @@ This project demonstrates the use of multiple AI agents to analyze retail proper
    python main.py
    ```
 
-4. **Interact with the Agents**  
+3. **Interact with the Agents**  
    - The agents will execute assigned tasks, and outputs will be saved to:
      ```
      research_task_output_internet.txt
@@ -65,8 +65,6 @@ This project demonstrates the use of multiple AI agents to analyze retail proper
      ```
      [a link](https://github.com/user/repo/blob/branch/other_file.md)
 
-5. **View Results**  
-   - Open the generated output files to analyze the findings and recommendations.
 
 ## Troubleshooting
 - **Issue**: Missing Dependencies  
