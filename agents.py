@@ -4,7 +4,7 @@ from tools import search_tool  # Importing tools (search_tool currently commente
 
 # Configure the LLM for both agents
 llm = ChatGroq(
-    model="groq/mixtral-8x7b-32768",  # Specify the LLM model to be used
+    model="groq/deepseek-r1-distill-llama-70b",  # model="groq/mixtral-8x7b-32768",  # Specify the LLM model to be used
     temperature=0,  # Set temperature for deterministic responses
     max_tokens=None,  # Allow maximum token length (no limit specified)
     timeout=None,  # No timeout set for responses
