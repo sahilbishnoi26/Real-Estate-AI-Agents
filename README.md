@@ -11,6 +11,7 @@ This project demonstrates the use of multiple AI agents to analyze retail proper
 - **Comprehensive Reports**: Generates detailed, professional-grade investment analysis reports.
 
 ## Technologies Used
+- **UPDATE: DeepSeek-R1-distill-llama-70b**: Uses State of the Art LLM via Groq API
 - **CrewAI**: Framework for agent orchestration and task management.
 - **LangChain**: For integrating language models and tools.
 - **Python**: Primary programming language.
@@ -48,7 +49,8 @@ This project demonstrates the use of multiple AI agents to analyze retail proper
 
 ## Usage
 1. **Configure Agents and Tasks**  
-   - Modify the agents and tasks in `agents.py` and `tasks.py` to reflect specific requirements.
+   - Modify the agents and tasks in `agents.py` and `tasks.py` to reflect specific requirements. Edit them to perform a different research and analysis.
+     ![alt text]() 
 
 2. **Run the Project**  
    ```
@@ -61,6 +63,7 @@ This project demonstrates the use of multiple AI agents to analyze retail proper
      research_task_output_internet.txt
      analysis_task_output.txt
      ```
+     [a link](https://github.com/user/repo/blob/branch/other_file.md)
 
 5. **View Results**  
    - Open the generated output files to analyze the findings and recommendations.
