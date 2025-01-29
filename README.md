@@ -49,8 +49,9 @@ This project demonstrates the use of multiple AI agents to analyze retail proper
 
 ## Usage
 1. **Configure Agents and Tasks**  
-   - Modify the agents and tasks in `agents.py` and `tasks.py` to reflect specific requirements. Edit them to perform a different research and analysis.
-     ![alt text]() 
+   - Modify the agents and tasks in `agents.py` and `tasks.py` to reflect specific requirements.
+
+     ![alt text](https://github.com/sahilbishnoi26/Real-Estate-AI-Agents/blob/main/pic1.png) 
 
 2. **Run the Project**  
    ```
@@ -63,8 +64,11 @@ This project demonstrates the use of multiple AI agents to analyze retail proper
      research_task_output_internet.txt
      analysis_task_output.txt
      ```
-     [a link](https://github.com/user/repo/blob/branch/other_file.md)
+     
+     [a link](https://github.com/sahilbishnoi26/Real-Estate-AI-Agents/blob/main/research_task_output_internet.txt)
 
+     [a link](https://github.com/sahilbishnoi26/Real-Estate-AI-Agents/blob/main/analysis_task_output.txt)
+     
 
 ## Troubleshooting
 - **Issue**: Missing Dependencies  
